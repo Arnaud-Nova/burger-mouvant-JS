@@ -11,3 +11,5 @@ des touches appuyées.
 - On peut localiser une case par son axe X et Y !
 - On peut changer la classe d'une case avec `case.classList.toggle(maclasse)`
 
+## Le résultat : 
+![burger](https://github.com/Fabioclock/burger-mouvant/raw/master/burger.png)
