@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
 body {
     background: #a3c5a3;
+    font-family: 'Sedgwick Ave', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1em;
 }
 
 .terrain_de_jeu{
@@ -43,4 +58,8 @@ body {
 
 .square.wall {
     background: #b9a288;
+}
+
+.square.fire {
+    background: rgb(216, 166, 27);
 }
